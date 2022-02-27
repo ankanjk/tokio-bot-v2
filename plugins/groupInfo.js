@@ -53,7 +53,7 @@ Demote: ${sDemote}
         conn.sendFile(m.key.remoteJid, pp, 'pp.jpg', text, m, false, { contextInfo: { mentionedJid } })
     }
 }
-handler.help = ['infogroup']
+handler.help = ['infogrup']
 handler.tags = ['group']
 handler.command = /^(gro?upinfo|info(gro?up|gc))$/i
 

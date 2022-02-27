@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm... where\'s the url??'
+  if (!args[0]) throw 'Uhm...url nya mana?'
   let res = await fetch(global.API('xteam', '/dl/fb', {
     url: args[0]
   }, 'APIKEY'))
@@ -24,13 +24,13 @@ let handler = async (m, { conn, args }) => {
   let unknown = '_Unknown_'
   let none = '_None_'
   let caption = `
-Content${isFamilyFriendly ? ' ' : ' *No* '}Family Friendly
-Post by ${name} (${authorname || ''}) (${authorlink || ''})
-Posted on ${new Date(uploadDate).toLocaleDateString('id', dateConfig)}
+Konten${isFamilyFriendly ? ' ' : ' *Tidak* '}Family Friendly
+Post oleh ${name} (${authorname || ''}) (${authorlink || ''})
+Diposting pada ${new Date(uploadDate).toLocaleDateString('id', dateConfig)}
 Size: ${contentSize || unknown}
-Duration: ${clockString(+ new Date(duration))}
+Durasi: ${clockString(+ new Date(duration))}
 Genre: ${genre || none}
-Quality: ${videoQuality ? videoQuality : unknown}
+Kualitas: ${videoQuality ? videoQuality : unknown}
 
 ${description}
 

@@ -12,11 +12,11 @@ let handler = async (m, { usedPrefix, conn, args, text }) => {
     tipe = defaultType
   }
   if (!emoji) throw `
-Please enter the emoji
+Silahkan masukan emojinya
 
-Example ${usedPrefix}semoji whatsapp 😎
+Misal ${usedPrefix}semoji whatsapp 😎
 
-Type List:
+List Tipe:
 ${[
   "apple",
   "google",
@@ -52,7 +52,7 @@ ${[
   // `.trim())
   m.reply(stiker)
 }
-handler.help = ['semoji [type] <emoji>']
+handler.help = ['semoji [tipe] <emoji>']
 handler.tags = ['sticker']
 handler.command = /^s?emo(ji)?$/i
 module.exports = handler

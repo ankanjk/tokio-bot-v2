@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async(m, { conn, text }) => {
-  if (!text) throw `Enter the query!`
+  if (!text) throw `Masukkan query!`
   let res = await fetch(global.API('https://api.jikan.moe', '/v3/search/manga', { q: text }))
   if (!res.ok) throw await res.text()
   let json = await res.json()
@@ -13,8 +13,8 @@ let mangaingfo = `*Title:* ${title}
 *Link*: ${url}`
   conn.sendFile(m.chat, image_url, '', mangaingfo, m)
 }
-handler.help = ['manga <title>']
-handler.tags = ['anime']
+handler.help = ['manga <judul>']
+handler.tags = ['internet']
 handler.command = /^(manga)$/i
 //udah di maapin kan?
 module.exports = handler

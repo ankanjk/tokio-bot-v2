@@ -4,11 +4,11 @@ const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
-Example:
+Contoh:
 ${usedPrefix + command} <lang> [text]
 ${usedPrefix + command} id your messages
 
-List of supported languages: https://cloud.google.com/translate/docs/languages
+Daftar bahasa yang didukung: https://cloud.google.com/translate/docs/languages
 `.trim()
 
     let lang = args[0]
@@ -36,7 +36,7 @@ List of supported languages: https://cloud.google.com/translate/docs/languages
     }
 
 }
-handler.help = ['translate'].map(v => v + ' <lang> <text>')
+handler.help = ['translate'].map(v => v + ' <lang> <teks>')
 handler.tags = ['tools']
 handler.command = /^(tr(anslate)?)$/i
 handler.limit = false

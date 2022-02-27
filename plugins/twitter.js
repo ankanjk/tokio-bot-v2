@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm... where\'s the url?'
+  if (!args[0]) throw 'Uhm...url nya mana?'
   let res = await fetch(global.API('xteam', '/dl/twitter', { url: args[0] }, 'APIKEY'))
   if (res.status != 200) throw await res.text()
   let json = await res.json()

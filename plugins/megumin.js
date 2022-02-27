@@ -7,7 +7,7 @@ let handler = async(m, { conn }) => {
   conn.sendFile(m.chat, json.url, '', '@Daeho', m)
 }
 handler.help = ['megumin']
-handler.tags = ['anime']
+handler.tags = ['internet']
 handler.command = /^(megumin)$/i
 //ftwrr
 module.exports = handler

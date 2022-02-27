@@ -6,16 +6,16 @@ let handler = m => {
     let { min, xp, max } = levelling.xpRange(user.level, global.multiplier)
     throw `
 Level *${user.level} (${user.exp - min}/${xp})*
-Not enough *${max - user.exp}* again!
+Kurang *${max - user.exp}* lagi!
 `.trim()
   }
   let before = user.level * 1
 	while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 	if (before !== user.level) {
             m.reply(`
-🎊 Congratulations, you have leveled up!
+Selamat, anda telah naik level!
 *${before}* -> *${user.level}*
-use *.profile* to check
+gunakan *.profile* untuk mengecek
 	`.trim())
         }
 }
@@ -23,6 +23,6 @@ use *.profile* to check
 handler.help = ['levelup']
 handler.tags = ['xp']
 
-handler.command = /^level(|up)$/i
+handler.command = /^levelup$/i
 
 module.exports = handler

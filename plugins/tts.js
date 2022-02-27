@@ -3,7 +3,7 @@ let fs = require('fs')
 let path = require('path')
 let { spawn } = require('child_process')
 
-const defaultLang = 'hi'
+const defaultLang = 'id'
 let handler = async (m, { conn, args }) => {
 
   let lang = args[0]
@@ -23,7 +23,7 @@ let handler = async (m, { conn, args }) => {
     conn.sendFile(m.chat, res, 'tts.opus', null, m, true)
   }
 }
-handler.help = ['tts <lang> <text>']
+handler.help = ['tts <lang> <teks>']
 handler.tags = ['tools']
 handler.command = /^g?tts$/i
 module.exports = handler

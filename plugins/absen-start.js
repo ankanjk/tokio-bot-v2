@@ -1,24 +1,18 @@
-let handler = async (m, { conn, usedPrefix, text, isAdmin, isOwner }) => {
-    if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-            global.dfail('admin', m, conn)
-            throw false
-        }
-    }
+let handler = async (m, { usedPrefix, text }) => {
     conn.absen = conn.absen ? conn.absen : {}
     let id = m.chat
     if (id in conn.absen) {
-        await conn.send2Button(m.chat, `There are still absences in this chat!`, '© stikerin', 'delete', `${usedPrefix}removeabsent`, 'Check', `${usedPrefix}checkabsent`, m)
-        throw false
+        throw `_*There are still absences in this chat!*_\n\n*${usedPrefix}hapusabsen* - to delete absent`
     }
     conn.absen[id] = [
-        await conn.sendButton(m.chat, `Absence begins`, '© stikerin', 'Absent', `${usedPrefix}absent`, m),
+        m.reply(`Successfully started absent!\n\n*${usedPrefix}absen* - to be absent\n*${usedPrefix}cekabsen* - to check attendance\n*${usedPrefix}hapusabsen* - untuk menghapus data absen`),
         [],
         text
     ]
 }
-handler.help = ['startabsent [teks]']
+handler.help = ['mulaiabsen [teks]']
 handler.tags = ['absen']
-handler.command = /^(start|mulai)absent$/i
-
+handler.command = /^(start|mulai)absen$/i
+handler.group = true
+handler.admin = true
 module.exports = handler

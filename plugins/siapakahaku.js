@@ -30,7 +30,7 @@ Bonus: ${poin} XP
     ]
 }
 handler.help = ['siapakahaku']
-handlertags = ['game']
+handler.tags = ['game']
 handler.command = /^siapa(kah)?aku/i
 
 module.exports = handler

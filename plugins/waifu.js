@@ -4,10 +4,10 @@ let handler = async(m, { conn }) => {
   if (!res.ok) throw await res.text()
   let json = await res.json()
   if (!json.url) throw 'Error!'
-  conn.sendFile(m.chat, json.url, '', 'UωU', m)
+  conn.sendFile(m.chat, json.url, '', 'Istri kartun', m)
 }
 handler.help = ['waifu']
-handler.tags = ['anime']
+handler.tags = ['internet']
 handler.command = /^(waifu)$/i
 //MADE IN ERPAN 1140 BERKOLABORASI DENGAN BTS
 module.exports = handler

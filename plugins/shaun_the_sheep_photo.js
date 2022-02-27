@@ -5,11 +5,11 @@ let handler = async (m) => {
   if (!mime) throw 'No media found'
   let media = await q.download()
   let url = await uploadImage(media)
-  await conn.sendFile(m.chat, global.API('xteam', '/videomaker/shaunthesheep', { url }, 'APIKEY'), 'shaunthesheep.mp4', 'don\'t be sad...', m)
+  await conn.sendFile(m.chat, global.API('xteam', '/videomaker/shaunthesheep', { url }, 'APIKEY'), 'shaunthesheep.mp4', 'jangan sedih yaa...', m)
 }
-handler.help = ['shaunthesheep/sss']
-handler.tags = ['maker']
+handler.help = ['shaunthesheep']
+handler.tags = ['videomaker']
 
-handler.command = /^(shaunthesheep|sss)$/i
+handler.command = /^shaunthesheep$/i
 
 module.exports = handler

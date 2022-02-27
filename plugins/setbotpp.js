@@ -10,13 +10,12 @@ let handler = async (m, { conn, args }) => {
     let mime = (q.msg || q).mimetype || ''
     if (/image/.test(mime)) {
       let img = await q.download()
-      if (!img) throw `Photo not found`
+      if (!img) throw `Foto tidak ditemukan`
      conn.updateProfilePicture (bot, img)
-    conn.reply(m.chat, 'Success in Changing Bot\'s Profile Photo!', m)
+    conn.reply(m.chat, 'Sukses Mengganti Foto Profile Bot!', m)
 	}
     }
 handler.help = ['setbotpp']
-handler.tags = ['owner']
 handler.command = /^(setbotpp)$/i
 handler.owner = true
 

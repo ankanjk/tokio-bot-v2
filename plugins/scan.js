@@ -2,8 +2,8 @@
 // https://github.com/TOXIC-DEVIL
 
 let handler = async (m, { conn, args }) => {
-    if (!args || !args[0] || args.length === 0) throw 'Enter the number to scan!'
-    if (args[0].startsWith('0')) throw 'Use Country code!'
+    if (!args || !args[0] || args.length === 0) throw 'Masukkan nomor untuk dipindai!'
+    if (args[0].startsWith('0')) throw 'Gunakan code Negara!'
     let user = await conn.isOnWhatsApp(args[0])
     let exists = user && user.exists ? true : false
     if (exists) {
@@ -15,24 +15,24 @@ let handler = async (m, { conn, args }) => {
         }
         if (user.jid in global.db.data.users) isInDatabase = true
         let str = ` 
-*Name:* ${conn.getName(user.jid)}
-*Number:* ${splitM(user.jid)}
+*Nama:* ${conn.getName(user.jid)}
+*Nomor:* ${splitM(user.jid)}
 *Mention:* ${toM(user.jid)}
 *Api:* wa.me/${splitM(user.jid)}
 *Jid:* ${user.jid}
 *Whatsapp Bussines:* ${user.isBusiness ? 'Yes' : 'No'}
 *In Database:* ${isInDatabase ? 'Yes' : 'No'}
-*Same group with BOT:* ${sameGroup.length} *Group*
+*Group Yang Sama Dengan BOT:* ${sameGroup.length} *Group*
 `.trim()
         m.reply(str, m.chat, { 
             contextInfo: { 
                 mentionedJid: conn.parseMention(str)
             }
         })
-    } else throw 'User Not Found!!'
+    } else throw 'User Tidak Ditemukan!!'
 }
     
-handler.help = ['scan'].map(v => v + ' [number]')
+handler.help = ['scan'].map(v => v + ' [nomor]')
 handler.tags = ['tools']
 handler.command = /^scan$/i
 

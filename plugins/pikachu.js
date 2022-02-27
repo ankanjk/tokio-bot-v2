@@ -12,7 +12,8 @@ let handler = async(m, { conn }) => {
   throw stiker.toString()
 }
 handler.help = ['pikachu']
-handler.tags = ['anime']
-handler.command = /^pikachu/i
+handler.tags = ['internet']
+handler.customPrefix = /^pik{1,2}a(c{1,2}hu)?$/i
+handler.command = new RegExp
 
 module.exports = handler

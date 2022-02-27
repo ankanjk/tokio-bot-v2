@@ -1,59 +1,29 @@
+const pilihan = ['batu', 'gunting', 'kertas']
+const Case = str => str[0].toUpperCase() + str.slice(1).toLowerCase()
 let handler = async (m, { text, usedPrefix }) => {
-    let poin = 300
-    let wrong = `Available options scissor, paper, rock\n\n*Example* : ${usedPrefix}suit scissor\n`
-    if (!text) throw wrong
-    var suit = Math.random()
-
-    if (suit < 0.34) {
-        suit = 'rock'
-    } else if (suit > 0.34 && suit < 0.67) {
-        suit = 'scissor'
-    } else {
-        suit = 'paper'
-    }
-
-    //menentukan rules
-    if (text == suit) {
-      global.db.data.users[m.sender].exp += 100
-        m.reply(`*we draw*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (±)100 XP`)
-    } else if (text == 'rock') {
-        if (suit == 'scissor') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`*You win*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (+)${poin} XP`)
-        } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`*You lose*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (-)${poin} XP`)
-        }
-    } else if (text == 'scissor') {
-        if (suit == 'paper') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`*You win*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (+)${poin} XP`)
-        } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`*You lose*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (-)${poin} XP`)
-        }
-    } else if (text == 'paper') {
-        if (suit == 'rock') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`*You win*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (+)${poin} XP`)
-        } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`*You lose*\n\nyou : ${text}\nBot : ${suit}\n\nPoin (-)${poin} XP`)
-        }
-    } else {
-        throw wrong
-    }
+    let salah = `Pilihan yang tersedia Gunting, Kertas, Batu\n\n*Contoh* : ${usedPrefix}suit gunting\n`
+    if (!text) throw salah
+    if (!pilihan.includes(text.toLowerCase())) throw salah
+    let suitP1 = pilihan.indexOf(text.toLowerCase())
+    let suitPC = Math.floor(Math.random() * 3)
+    let kamu = Case(pilihan[suitP1])
+    let bot = Case(pilihan[suitPC])
+    let state = `Kamu: ${kamu}\nBot: ${bot}`
+    let user = global.db.data.users[m.sender]
+    if (suitP1 === suitPC) {
+        user.exp += 100
+        m.reply(`*Kita Seri*\n\n${state}\n\nPoin (±)100 XP`)
+    } else if ((suitP1 + 1) % 3 === suitPC) {
+        user.exp += 300
+        m.reply(`*Kamu Menang*\n\n${state}\n\nPoin (+)300 XP`)
+    } else if ((suitP1 - 1) % 3 === suitPC) {
+        user.exp -= 300
+        m.reply(`*Kamu Kalah*\n\n${state}\n\nPoin (-)300 XP`)
+    } else throw 'Terjadi kesalahan'
 }
-handler.help = ['suit scissor/rock/paper']
+handler.help = ['suit [gunting|batu|kertas]']
 handler.tags = ['game']
+
 handler.command = /^suit$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.register = false
-handler.admin = false
-handler.botAdmin = false
 
 module.exports = handler

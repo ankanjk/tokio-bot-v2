@@ -1,21 +1,20 @@
-let handler  = async (m, { conn, text }) => {
-	
-conn.game = conn.game ? conn.game : {}
-try {
-if ( conn.game = true ) {
-	delete conn.game
-	conn.reply( m.chat, `Successfully deleted the session of ttt`, m)
-	} else if ( conn.game = false ) {
-		m.reply(`Session ttt🎮 does not exist`)
-		} else throw 'ngabs'
+let handler = async (m, { conn, text }) => {
+	conn.game = conn.game ? conn.game : {}
+	try {
+		if (conn.game) {
+			delete conn.game
+			conn.reply(m.chat, `Berhasil delete session ttt`, m)
+		} else if (conn.game) {
+			m.reply(`Session ttt🎮 tidak ada`)
+		} else throw '?'
 	} catch (e) {
-		m.reply('damaged')
-		}
+		m.reply('rusak')
+	}
 }
-	//BY RIZXYU
-handler.help = ['delttt']
+//BY RIZXYU
+handler.help = ['delsesittt']
 handler.tags = ['game']
-handler.command = /^(delttt|dellttt)$/i
+handler.command = /^(delsesittt|dellsesitt)$/i
 handler.limit = true
 
 handler.register = true

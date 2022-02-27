@@ -3,19 +3,19 @@ let handler = async (m, { conn, command, text }) => {
   if (type == '') {
     if (text) {
       conn.menu = text
-      conn.reply(m.chat, 'Menu successfully set\n' + info, m)
+      conn.reply(m.chat, 'Menu berhasil diatur\n' + info, m)
     } else {
       conn.menu = {}
-      conn.reply(m.chat, 'Menu reset', m)
+      conn.reply(m.chat, 'Menu direset', m)
     }
   } else {
     conn.menu = typeof conn.menu == 'object' ? conn.menu : {}
     if (text) {
       conn.menu[type] = text
-      conn.reply(m.chat, 'Menu ' + type + ' successfully set\n' + info, m)
+      conn.reply(m.chat, 'Menu ' + type + ' berhasil diatur\n' + info, m)
     } else {
       delete conn.menu[type]
-      conn.reply(m.chat, 'Menu ' + type + ' reset', m)
+      conn.reply(m.chat, 'Menu ' + type + ' direset', m)
     }
   }
 }
@@ -42,28 +42,28 @@ Universal:
 %exp (Current Exp)
 $maxexp (Exp To Level Up)
 %totalexp (Total Exp)
-%xp4levelup (Exp needed to level up)
+%xp4levelup (Exp yang dibutuhkan untuk levelup)
 %limit (Limit)
 %level (level)
 %role (Role)
-%name (Name)
-%weton (present date)
-%week (Day)
-%date (Date)
-%time (O'clock)
+%name (Nama)
+%weton (Weton Hari ini)
+%week (Hari)
+%date (Tanggal)
+%time (Jam)
 %uptime (Uptime Bot)
-%rtotalreg (Number of users registered in the database)
-%totalreg (Number of users in the database)
+%rtotalreg (Jumlah User yang daftar di database)
+%totalreg (Jumlah User yang ada di database)
 %npmname
 %npmdesc
 %version
 %github
 
-Header & Footer Menu Section:
-%category (Category)
+Bagian Menu Header & Footer:
+%category (Kategori)
 
-Body Menu Section:
+Bagian Menu Body:
 %cmd (Command)
-%islimit (If the command is limited)
-%isPremium (If command premium)
+%islimit (Jika command di limit)
+%isPremium (Jika command premium)
 `.trim()
