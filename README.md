@@ -1,10 +1,8 @@
-# tokio
+# wabot-aq
 
-English version of wabot-aq
+Simple WhatsApp Bot
 
-Don't forget to give it a star  🌟
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsajaygaur/tokio-wabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jetushack1/wabot-olduser)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
@@ -14,10 +12,21 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
+git clone https://github.com/jetushack1/wabot-olduser
+cd wabot-olduser
+rm -rf session.data.json
 npm install
 npm update
+```
+
+# Installation
+## Clone Repo & Installation dependencies
+
+```bash
+git clone https://github.com/jetushack1/wabot-olduser
+cd wabot-olduser
+npm install
+node index.js
 ```
 
 ## INSTALL ON TERMUX WITH UBUNTU
@@ -43,37 +52,24 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & TOKIO-WABOT ]
+[ INSTALLING NODEJS & WABOT-AQ ]
 
-```bash
+```
+bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
+git clone https://github.com/jetushack1/wabot-olduser
+cd wabot-olduser
+rm -rf session.data.json
 npm install
 npm update
 ```
 
----------
 
-## FOR WINDOWS/VPS/RDP USER
 
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/itsajaygaur/tokio-wabot
-cd tokio-wabot
-npm install
-npm update
 ```
-
----------
-
-## Run
+# Run
 
 ```bash
 node .
@@ -82,7 +78,6 @@ node .
 ---------
 
 ## Arguments `node . [--options] [<session name>]`
-#### Example: `node . --self --restrict --autoread`
 
 ### `--self`
 
@@ -109,14 +104,33 @@ Set prefix
 
 Used for [heroku](https://heroku.com/) or scan through website
 
-### `--db <your_mongo_URI>`
+### `--db <json-server-url>`
 
-Use external db instead of local db
+Use external db instead of local db, 
+Example Server `https://json-server.nurutomo.repl.co/`
+Code: `https://repl.it/@Nurutomo/json-server`
 
-Example:
+`node . --db 'https://json-server.nurutomo.repl.co/'`
 
-`node . --db '<YOUR_MONGO_URI_HERE>'`
+The server should have like this specification
 
+#### GET
+
+```http
+GET /
+Accept: application/json
+```
+
+#### POST
+
+```http
+POST /
+Content-Type: application/json
+
+{
+ data: {}
+}
+```
 
 ### `--big-qr`
 
@@ -156,19 +170,14 @@ conn.logger.level = 'trace'
 conn.logger.level = 'debug'
 ```
 
--------
+---------
 
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay](https://github.com/itsajaygaur.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) 
-----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ajay](https://github.com/itsajaygaur/tokio-wabot) 
-Author / Creator | Editor
- 
-
+<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Ftwrr](https://github.com/Ftwrr.png?size=100)](https://github.com/Ftwrr) 
+----|----|----|----
+[XTEAM](https://api.xteam.xyz/) | [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Ftwrr](https://github.com/Ftwrr)
+Powered by XTEAM | Author / Creator | Most Active Contributor | 2nd Most Active Contributor
 
 
-Don't forget to give it a star 🌟
+NOTE: This project will not maintained after `27 June 2021`, that means no update. Feel free to anyone to continue this project :)
 
-Best regards: tokio
-
-
-
+Best Regards. wabot-aq

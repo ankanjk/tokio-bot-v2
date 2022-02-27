@@ -1,67 +1,57 @@
 let fs = require('fs')
 let path = require('path')
+let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
+const thumb = fs.readFileSync('./src/thumb.jpg')
 let tags = {
-  'main': 'Main',
-  'game': 'Game',
-  'xp': 'Exp & Limit',
-  'sticker': 'Sticker',
-  'kerang': 'Kerang Ajaib',
-  'quotes': 'Quotes',
-  'admin': 'Admin',
-  'group': 'Group',
-  'premium': 'Premium',
-  'internet': 'Internet',
-  'anonymous': 'Anonymous Chat',
-  'nulis': 'MagerNulis & Logo',
-  'downloader': 'Downloader',
-  'tools': 'Tools',
-  'fun': 'Fun',
-  'database': 'Database',
-  'vote': 'Voting',
-  'absen': 'Absen',
-  'quran': 'Al Qur\'an',
-  'jadibot': 'Jadi Bot',
-  'owner': 'Owner',
-  'host': 'Host',
-  'advanced': 'Advanced',
-  'info': 'Info',
-  '': 'No Category',
+  'main': 'MAIN',
+  'info': 'INFO',
+  'game': 'GAME',
+  'xp': 'EXP & LIMIT',
+  'sticker': 'STICKER',
+  'admin': 'ADMIN',
+  'group': 'GROUP',
+  'premium': 'PREMIUM',
+  'anime': 'ANIME',
+  'internet': 'INTERNET',
+  'nulis': 'LOGO & WRITING',
+  'downloader': 'DOWNLOADER',
+  'tools': 'TOOLS',
+  'fun': 'FUN',
+  'audio': 'AUDIO',
+  'maker': 'MAKER',
+  'videomaker': 'VIDEOMAKER',
+  'database': 'DATABASE',
+  'exp': 'REGISTER',
+  'vote': 'VOTING',
+  'absen': 'ABSENT',
+  'jadibot': 'GET BOT',
+  'anonymous': 'ANONYMOUS CHAT',
+  'owner': 'OWNER',
+  'host': 'HOST',
+  'advanced': 'ADVANCED',
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
-│ Hai,Whatsapp User!
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ https://github.com/jetushack1
-|
-|wa-bot-aq Github:
-|https://github.com/jetushack1/wa-bot-aq
-|Asena-bot Github:
-|https://github.com/jetushack1/Asena-bot
-|bomber Sms Github:
-|https://github.com/jetushack1/bomber
-|  
-|
-| Youtube : https://www.youtube.com
-| Instgram : https://www.instagram.com/olduser.ml/
-|
-| PLEASE FOLLOW ME ON INSTAGRAM
-|
-╰────
+
+🙏🏻 Namaste %name, how can i help you?
+
+🪵 Left: *%limit Limit*
+🎗️ Role: *%role*
+🛕 Level: *%level* 
+☕ Total XP: *%totalexp*
+
+〽️ Prefix: *%p*
+📅 Date: *%week, %date*
+💠 Github: github.com/itsajaygaur/tokio-wabot
+
+👇🏻 All usable commands are listed below 
+
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
-  after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+  header: '        *━━❰･%category･❱━━*',
+  body: ' 🌠 %cmd %islimit %isPremium',
+  footer: ' ',
+  after: `🌟 *Hope you're enjoying bot, have a great day* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -71,7 +61,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let name = conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
-    let locale = 'id'
+    let locale = 'en'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
     // Offset    0 is  0.00
@@ -131,7 +121,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ...Object.keys(tags).map(tag => {
         return header.replace(/%category/g, tags[tag]) + '\n' + [
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
-            return menu.help.map(help => {
+            return  menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
                 .replace(/%islimit/g, menu.limit ? '(Limit)' : '')
                 .replace(/%isPremium/g, menu.premium ? '(Premium)' : '')
@@ -160,13 +150,13 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.reply(m.chat, text.trim(), m)
+    conn.send2ButtonImg(m.chat, thumb, `🏮 I\'m ${conn.user.name}`, text.trim(), 'owner', '-owner', 'rules', '.rules', m)
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
   }
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['help/menu/?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 handler.owner = false
