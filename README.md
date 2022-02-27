@@ -68,7 +68,9 @@ yarn upgrade
 ```bash
 https://github.com/jetushack1/popat
 cd popat
-npm install -g npm@yarn
+npm install --global yarn
+npm install -g yarn
+choco install yarn
 yarn install
 yarn upgrade
 ```
