@@ -1,13 +1,21 @@
-let handler = async (m, { usedPrefix }) => {
+let handler = async (m, { conn, usedPrefix, isAdmin, isOwner }) => {
+    if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+            global.dfail('admin', m, conn)
+            throw false
+        }
+    }
     let id = m.chat
     conn.absen = conn.absen ? conn.absen : {}
-    if (!(id in conn.absen)) throw `_*No absences take place in this group!*_\n\n*${usedPrefix}mulaiabsen* - to start absent`
+    if (!(id in conn.absen)) {
+        await conn.sendButton(m.chat, `No absenteeism takes place!`, '© stikerin', 'Start', `${usedPrefix}startabsent`, m)
+        throw false
+    }
     delete conn.absen[id]
-    m.reply(`Done!`)
+    m.reply(`Absenteeism has been successfully deleted`)
 }
-handler.help = ['deleteabsen']
+handler.help = ['removeabsent']
 handler.tags = ['absen']
-handler.command = /^(delete|hapus)absen$/i
-handler.group = true
-handler.admin = true
+handler.command = /^(remove|hapus|-)absent$/i
+
 module.exports = handler

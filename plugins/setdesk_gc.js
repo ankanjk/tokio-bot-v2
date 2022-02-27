@@ -1,9 +1,9 @@
 let handler = async (m, { conn, args }) => {
  await conn.groupUpdateDescription(m.chat, `${args.join(" ")}`);
-  m.reply('Sukses mengganti deskripsi group')
+  m.reply('Successfully changed the group description')
 }
 
-handler.help = ['Setdesk <text>']
+handler.help = ['setdesk <text>']
 handler.tags = ['group']
 handler.command = /^setdesk$/i
 handler.owner = false

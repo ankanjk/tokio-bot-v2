@@ -144,22 +144,57 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       global.opts['swonly'] = isEnable
       break
+    case 'viewonce':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.viewonce = isEnable
+      break
+      case 'simi':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw 0
+        }
+      }
+      chat.simi = isEnable
+      break
     default:
       if (!/[01]/.test(command)) throw `
-List option: welcome | delete | public | antilink | autolevelup | detect | document | whitelistmycontacts | restrict | nyimak | autoread | pconly | gconly | swonly
+List option:
 
-Contoh:
+| welcome 
+| delete 
+| public 
+| antilink 
+| autolevelup 
+| detect 
+| document 
+| whitelistmycontacts 
+| restrict 
+| nyimak 
+| autoread 
+| pconly 
+| gconly 
+| swonly 
+| simi
+| viewonce
+
+Example:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
 `.trim()
       throw false
   }
   m.reply(`
-*${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
+*${type}* has successfully *${isEnable ? 'turned on' : 'turned off'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this chat'}
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
-handler.tags = ['group', 'owner']
+handler.tags = ['group']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 
 module.exports = handler

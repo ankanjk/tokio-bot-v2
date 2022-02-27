@@ -11,7 +11,7 @@ handler.before = m => {
             m.reply(`
 Congratulations, you have leveled up!
 *${before}* -> *${user.level}*
-use *.profile* to check
+type *.profile* to check
 	`.trim())
         }
 }
