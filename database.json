@@ -1,8 +1,8 @@
 {
   "users": {
     "918602239106@s.whatsapp.net": {
-      "exp": 100487,
-      "limit": 99998,
+      "exp": 100489,
+      "limit": 99997,
       "lastclaim": 0,
       "registered": true,
       "name": "olduser",
@@ -16,7 +16,7 @@
       "autolevelup": false
     },
     "17786504563@s.whatsapp.net": {
-      "exp": 100170,
+      "exp": 100192,
       "limit": 99999,
       "lastclaim": 0,
       "registered": true,
@@ -196,7 +196,7 @@
       "autolevelup": false
     },
     "919860079870@s.whatsapp.net": {
-      "exp": 41,
+      "exp": 101,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -271,7 +271,7 @@
       "autolevelup": false
     },
     "918240890871@s.whatsapp.net": {
-      "exp": 99,
+      "exp": 213,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -286,7 +286,7 @@
       "autolevelup": false
     },
     "918207003507@s.whatsapp.net": {
-      "exp": 21,
+      "exp": 166,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -421,7 +421,7 @@
       "autolevelup": false
     },
     "919748156365@s.whatsapp.net": {
-      "exp": 45,
+      "exp": 193,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -576,6 +576,156 @@
       "lastclaim": 0,
       "registered": false,
       "name": "아이쉬와라Aish💜",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "12048199056@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Bhos Manus Bot",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919022530482@s.whatsapp.net": {
+      "exp": 31,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "🌚🌝love♥️",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919609733501@s.whatsapp.net": {
+      "exp": 33,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Rizwan",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917594805716@s.whatsapp.net": {
+      "exp": 2,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "SWATHI ❤️💜",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917205656876@s.whatsapp.net": {
+      "exp": 1,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "🦋𝐀𝐧𝐮𝐬𝐡𝐚 🦋",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919448582375@s.whatsapp.net": {
+      "exp": 8,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Vinee",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918900961836@s.whatsapp.net": {
+      "exp": 18,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+91 89009 61836",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918260341740@s.whatsapp.net": {
+      "exp": 25,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "💜❤️Jennie❤️💜",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919730261073@s.whatsapp.net": {
+      "exp": 38,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Khushi_0704💜",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918100227768@s.whatsapp.net": {
+      "exp": 35,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "𝑇𝑎𝑒ℎ𝑦𝑢𝑛𝑔💜",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -751,6 +901,24 @@
       "success": 0,
       "last": 1646052520141,
       "lastSuccess": 0
+    },
+    "hug.js": {
+      "total": 15,
+      "success": 15,
+      "last": 1646058482388,
+      "lastSuccess": 1646058482388
+    },
+    "tts.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646058258826,
+      "lastSuccess": 1646058258826
+    },
+    "play.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646058269997,
+      "lastSuccess": 1646058269997
     }
   },
   "msgs": {},
