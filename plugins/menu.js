@@ -43,7 +43,7 @@ const defaultMenu = {
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Github: https://github.com/jetushack1/tokio-olduser-bot
+💠 Github: https://github.com/jetushack1/tokio-bot-v2
 
 👇🏻 All usable commands are listed below 
 
