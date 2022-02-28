@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['remove'].map(v => v + ' @user')
 handler.tags = ['admin']
-handler.command = /^(remove|\-)$/i
+handler.command = /^(remove|kick1\-)$/i
 
 handler.group = true
 handler.botAdmin = true
