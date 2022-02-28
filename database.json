@@ -1,8 +1,8 @@
 {
   "users": {
     "918602239106@s.whatsapp.net": {
-      "exp": 601,
-      "limit": 17,
+      "exp": 99999,
+      "limit": 99999,
       "lastclaim": 0,
       "registered": true,
       "name": "olduser",
@@ -11,13 +11,13 @@
       "afk": -1,
       "afkReason": "",
       "banned": false,
-      "level": 0,
+      "level": 99999,
       "role": "Beginner",
       "autolevelup": false
     },
     "17786504563@s.whatsapp.net": {
-      "exp": 121,
-      "limit": 20,
+      "exp": 99999,
+      "limit": 99999,
       "lastclaim": 0,
       "registered": true,
       "name": "bot",
@@ -26,7 +26,7 @@
       "afk": -1,
       "afkReason": "",
       "banned": false,
-      "level": 0,
+      "level": 99999,
       "role": "Beginner",
       "autolevelup": false
     },
