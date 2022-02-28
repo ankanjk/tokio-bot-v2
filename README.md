@@ -4,7 +4,7 @@ English version of wabot-aq
 
 Don't forget to give it a star  🌟
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jetushack1/popat)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jetushack1/tokio-olduser-bot)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
@@ -15,8 +15,8 @@ apt install nodejs -y
 apt install yarn -y
 apt install ffmpeg -y
 apt install imagemagick -y
-https://github.com/jetushack1/popat
-cd popat
+https://github.com/jetushack1/tokio-olduser-bot
+cd tokio-olduser-bot
 yarn install
 yarn upgrade
 ```
@@ -44,14 +44,14 @@ apt install wget curl git ffmpeg yarn imagemagick build-essential libcairo2-dev 
 
 ---------
 
-[ INSTALLING NODEJS & popat ]
+[ INSTALLING NODEJS & tokio-olduser-bot ]
 
 ```bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-https://github.com/jetushack1/popat
-cd popat
+https://github.com/jetushack1/tokio-olduser-bot
+cd tokio-olduser-bot
 yarn install
 yarn upgrade
 ```
@@ -66,8 +66,8 @@ yarn upgrade
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-https://github.com/jetushack1/popat
-cd popat
+https://github.com/jetushack1/tokio-olduser-bot
+cd tokio-olduser-bot
 npm install --global yarn
 npm install -g yarn
 choco install yarn
@@ -162,9 +162,9 @@ conn.logger.level = 'debug'
 
 -------
 
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay](https://github.com/itsajaygaur.png?size=100)](https://github.com/itsajaygaur/popat) 
+[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/nurutomo) | [![olduser](https://github.com/jetushack1.png?size=100)](https://github.com/jetushack1/tokio-olduser-bot) 
 ----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ajay](https://github.com/itsajaygaur/popat) 
+[Nurutomo](https://github.com/Nurutomo) | [Olduser](https://github.com/jetushack1/tokio-olduser-bot) 
 Author / Creator | Editor
  
 
@@ -172,7 +172,7 @@ Author / Creator | Editor
 
 Don't forget to give it a star 🌟
 
-Best regards: tokio
+Best regards: tokio-olduser-bot
 
 
 
