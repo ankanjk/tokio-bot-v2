@@ -1,7 +1,7 @@
 {
   "users": {
     "918602239106@s.whatsapp.net": {
-      "exp": 99999,
+      "exp": 100362,
       "limit": 99999,
       "lastclaim": 0,
       "registered": true,
@@ -12,11 +12,11 @@
       "afkReason": "",
       "banned": false,
       "level": 99999,
-      "role": "Beginner",
+      "role": "Legend",
       "autolevelup": false
     },
     "17786504563@s.whatsapp.net": {
-      "exp": 99999,
+      "exp": 100019,
       "limit": 99999,
       "lastclaim": 0,
       "registered": true,
@@ -27,7 +27,7 @@
       "afkReason": "",
       "banned": false,
       "level": 99999,
-      "role": "Beginner",
+      "role": "Legend",
       "autolevelup": false
     },
     "919106150276@s.whatsapp.net": {
@@ -106,7 +106,7 @@
       "autolevelup": false
     },
     "916002570722@s.whatsapp.net": {
-      "exp": 61,
+      "exp": 92,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -271,7 +271,7 @@
       "autolevelup": false
     },
     "918240890871@s.whatsapp.net": {
-      "exp": 38,
+      "exp": 84,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -306,6 +306,171 @@
       "lastclaim": 0,
       "registered": false,
       "name": "ẞTS Førêvér💜💜🙃😉",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917846948540@s.whatsapp.net": {
+      "exp": 198,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Taetae 🍓",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918099477015@s.whatsapp.net": {
+      "exp": 267,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "✨❥🎍𝙽𝙴𝚉𝚄𝙺𝙾 - 𝙲𝙷𝙰𝙽🎋❥✨",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917307451480@s.whatsapp.net": {
+      "exp": 28,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Rashi Singh",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918534895546@s.whatsapp.net": {
+      "exp": 38,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "읍혈귀(vampire)",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917208747194@s.whatsapp.net": {
+      "exp": 45,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Vikas",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917207840329@s.whatsapp.net": {
+      "exp": 11,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "♥️Tae__n 3^07 ! ♥️",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917560892730@s.whatsapp.net": {
+      "exp": 3,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Kaaavyaaa❤‍🩹",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919748156365@s.whatsapp.net": {
+      "exp": 45,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Kim Taedrija = 💜💞❣👈",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917399978124@s.whatsapp.net": {
+      "exp": 4,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Silly",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "923065754840@s.whatsapp.net": {
+      "exp": 3,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "💫 ن و م ی 💫",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918902495991@s.whatsapp.net": {
+      "exp": 29,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Mahdiya Ahmed",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -355,14 +520,40 @@
       "antiLink": false,
       "simi": false,
       "viewonce": false
+    },
+    "923064507701-1593825979@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
+    },
+    "918902495991@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
     }
   },
   "stats": {
     "menu.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1646048171486,
-      "lastSuccess": 1646048171486
+      "total": 8,
+      "success": 8,
+      "last": 1646051359448,
+      "lastSuccess": 1646051359448
     },
     "creator.js": {
       "total": 7,
@@ -395,9 +586,9 @@
       "lastSuccess": 1646046201192
     },
     "register.js": {
-      "total": 8,
+      "total": 9,
       "success": 3,
-      "last": 1646048620172,
+      "last": 1646051446292,
       "lastSuccess": 1646048620172
     },
     "unregister.js": {
@@ -405,6 +596,18 @@
       "success": 2,
       "last": 1646048616214,
       "lastSuccess": 1646048616214
+    },
+    "tictactoe.js": {
+      "total": 12,
+      "success": 8,
+      "last": 1646051984105,
+      "lastSuccess": 1646051860984
+    },
+    "levelup.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1646051489023,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
