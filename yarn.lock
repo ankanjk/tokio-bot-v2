@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@adiwajshing/baileys@^3.5.0":
+"@adiwajshing/baileys@^3.5.2":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/@adiwajshing/baileys/-/baileys-3.5.3.tgz#b93364576deceddd7f55a51853b32004cea02ad1"
   integrity sha512-eSmcTuF+lJ8xRGDv2CDqVC/wJAx5vsZXs4u1f4VHiRqDmj5y20JRkGXUnZpaRdO/r72yeLqrkln/w3x6d4JZuw==
