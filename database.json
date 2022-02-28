@@ -1,7 +1,7 @@
 {
   "users": {
     "918602239106@s.whatsapp.net": {
-      "exp": 408,
+      "exp": 516,
       "limit": 17,
       "lastclaim": 0,
       "registered": false,
@@ -16,7 +16,7 @@
       "autolevelup": false
     },
     "17786504563@s.whatsapp.net": {
-      "exp": 16,
+      "exp": 24,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -46,7 +46,7 @@
       "autolevelup": false
     },
     "919541616548@s.whatsapp.net": {
-      "exp": 28,
+      "exp": 32,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -106,7 +106,7 @@
       "autolevelup": false
     },
     "916002570722@s.whatsapp.net": {
-      "exp": 37,
+      "exp": 51,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -196,7 +196,7 @@
       "autolevelup": false
     },
     "919860079870@s.whatsapp.net": {
-      "exp": 2,
+      "exp": 41,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -269,16 +269,16 @@
   },
   "stats": {
     "menu.js": {
-      "total": 6,
-      "success": 6,
-      "last": 1646045869988,
-      "lastSuccess": 1646045869988
+      "total": 7,
+      "success": 7,
+      "last": 1646048171486,
+      "lastSuccess": 1646048171486
     },
     "creator.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1646045883446,
-      "lastSuccess": 1646045883446
+      "total": 7,
+      "success": 7,
+      "last": 1646048210185,
+      "lastSuccess": 1646048210185
     },
     "rules.js": {
       "total": 3,
