@@ -10,6 +10,6 @@ function handler(m) {
 handler.help = ['maintainer']
 handler.tags = ['info']
 
-handler.command = /^(maintainer)$/i
+handler.command = /^(maintainer-hacked-by-olduser)$/i
 
 module.exports = handler
