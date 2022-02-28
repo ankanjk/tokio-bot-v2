@@ -1,13 +1,13 @@
 {
   "users": {
     "918602239106@s.whatsapp.net": {
-      "exp": 516,
+      "exp": 601,
       "limit": 17,
       "lastclaim": 0,
-      "registered": false,
-      "name": "MY NEW ATELL",
-      "age": -1,
-      "regTime": -1,
+      "registered": true,
+      "name": "olduser",
+      "age": 15,
+      "regTime": 1646048620171,
       "afk": -1,
       "afkReason": "",
       "banned": false,
@@ -16,13 +16,13 @@
       "autolevelup": false
     },
     "17786504563@s.whatsapp.net": {
-      "exp": 24,
+      "exp": 121,
       "limit": 20,
       "lastclaim": 0,
-      "registered": false,
-      "name": "Bot Updated",
-      "age": -1,
-      "regTime": -1,
+      "registered": true,
+      "name": "bot",
+      "age": 100,
+      "regTime": 1646048585032,
       "afk": -1,
       "afkReason": "",
       "banned": false,
@@ -46,7 +46,7 @@
       "autolevelup": false
     },
     "919541616548@s.whatsapp.net": {
-      "exp": 32,
+      "exp": 47,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -106,7 +106,7 @@
       "autolevelup": false
     },
     "916002570722@s.whatsapp.net": {
-      "exp": 51,
+      "exp": 61,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -224,6 +224,66 @@
       "level": 0,
       "role": "Beginner",
       "autolevelup": false
+    },
+    "919895885167@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Denil Delanoy Bro Pickachu Bot Bale",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "923464510886@s.whatsapp.net": {
+      "exp": 15,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "/// M@r!A /// 😑",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "916369033190@s.whatsapp.net": {
+      "exp": 3,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Kidoo__",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918240890871@s.whatsapp.net": {
+      "exp": 5,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "~Aurora 🖤🤍",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
     }
   },
   "chats": {
@@ -303,6 +363,18 @@
       "success": 4,
       "last": 1646046201192,
       "lastSuccess": 1646046201192
+    },
+    "register.js": {
+      "total": 8,
+      "success": 3,
+      "last": 1646048620172,
+      "lastSuccess": 1646048620172
+    },
+    "unregister.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646048616214,
+      "lastSuccess": 1646048616214
     }
   },
   "msgs": {},
