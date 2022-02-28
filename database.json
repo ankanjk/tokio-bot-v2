@@ -46,7 +46,7 @@
       "autolevelup": false
     },
     "919541616548@s.whatsapp.net": {
-      "exp": 47,
+      "exp": 85,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -241,7 +241,7 @@
       "autolevelup": false
     },
     "923464510886@s.whatsapp.net": {
-      "exp": 15,
+      "exp": 40,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -271,11 +271,41 @@
       "autolevelup": false
     },
     "918240890871@s.whatsapp.net": {
-      "exp": 5,
+      "exp": 38,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
       "name": "~Aurora 🖤🤍",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918207003507@s.whatsapp.net": {
+      "exp": 21,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Sid",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919707590983@s.whatsapp.net": {
+      "exp": 4,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ẞTS Førêvér💜💜🙃😉",
       "age": -1,
       "regTime": -1,
       "afk": -1,
