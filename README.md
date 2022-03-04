@@ -9,6 +9,9 @@ Don't forget to give it a star  🌟
 ## FOR TERMUX/UBUNTU/SSH USER
 
 ```bash
+pkg update
+pkg upgrade
+pkg install git -y nodejs-y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python3 -y
 apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
