@@ -20,7 +20,7 @@ apt install bash -y
 apt install yarn -y
 apt install ffmpeg -y
 apt install imagemagick -y
-https://github.com/jetushack1/popat
+git clone https://github.com/jetushack1/popat
 cd popat
 yarn install
 yarn upgrade
