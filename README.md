@@ -11,11 +11,12 @@ Don't forget to give it a star  🌟
 ```bash
 pkg update
 pkg upgrade
-pkg install git -y nodejs -y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python -y wget -y
+pkg install git -y nodejs -y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python -y wget -y bash -y
 apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
 apt install wget -y
+apt install bash -y
 apt install yarn -y
 apt install ffmpeg -y
 apt install imagemagick -y
