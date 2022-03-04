@@ -11,7 +11,7 @@ Don't forget to give it a star  🌟
 ```bash
 pkg update
 pkg upgrade
-pkg install git -y nodejs-y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python3 -y
+pkg install git -y nodejs -y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python -y
 apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
