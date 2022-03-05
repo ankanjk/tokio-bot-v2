@@ -22,8 +22,9 @@ apt install ffmpeg -y
 apt install imagemagick -y
 git clone https://github.com/jetushack1/popat
 cd popat
-yarn install
-yarn upgrade
+rm -rf session.json
+rm -rf session.data.json
+yarn start
 ```
 
 ## INSTALL ON TERMUX WITH UBUNTU
