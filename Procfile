@@ -1,1 +1,1 @@
-web: node index.js --restrict
+worker : npm i ffmpeg && npm start

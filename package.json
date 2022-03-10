@@ -10,7 +10,7 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js --restrict",
+    "start": "node index.js --autoread",
     "test": "node test.js --restrict"
   },
   "nodemonConfig": {
