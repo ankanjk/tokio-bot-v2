@@ -2802,7 +2802,7 @@
       "autolevelup": false
     },
     "919116787710@s.whatsapp.net": {
-      "exp": 12,
+      "exp": 18,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2817,7 +2817,7 @@
       "autolevelup": false
     },
     "919557061286@s.whatsapp.net": {
-      "exp": 5,
+      "exp": 13,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2832,7 +2832,7 @@
       "autolevelup": false
     },
     "918109939106@s.whatsapp.net": {
-      "exp": 28,
+      "exp": 91,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3399,9 +3399,9 @@
       "lastSuccess": 1646070549985
     },
     "add.js": {
-      "total": 61,
+      "total": 62,
       "success": 49,
-      "last": 1646128439887,
+      "last": 1646936301043,
       "lastSuccess": 1646128216899
     },
     "join.js": {
@@ -3579,9 +3579,9 @@
       "lastSuccess": 1646129858824
     },
     "addprem.js": {
-      "total": 2,
+      "total": 3,
       "success": 2,
-      "last": 1646936266070,
+      "last": 1646936305408,
       "lastSuccess": 1646936266070
     }
   },
