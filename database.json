@@ -2800,6 +2800,51 @@
       "level": 0,
       "role": "Beginner",
       "autolevelup": false
+    },
+    "919116787710@s.whatsapp.net": {
+      "exp": 12,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ishan Verma",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919557061286@s.whatsapp.net": {
+      "exp": 5,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "💫Himanshu✨💪🏻💪🏻",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918109939106@s.whatsapp.net": {
+      "exp": 28,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": ".",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
     }
   },
   "chats": {
@@ -3222,6 +3267,32 @@
       "antiLink": false,
       "simi": false,
       "viewonce": false
+    },
+    "120363021094097997@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
+    },
+    "120363041373151201@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
     }
   },
   "stats": {
@@ -3506,6 +3577,12 @@
       "success": 2,
       "last": 1646129858824,
       "lastSuccess": 1646129858824
+    },
+    "addprem.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646936266070,
+      "lastSuccess": 1646936266070
     }
   },
   "msgs": {},
