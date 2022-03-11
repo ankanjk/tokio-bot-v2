@@ -13,7 +13,7 @@
       "banned": false,
       "level": 99999,
       "role": "Legend",
-      "autolevelup": false
+      "autolevelup": true
     },
     "17786504563@s.whatsapp.net": {
       "exp": 101718,
@@ -2832,7 +2832,7 @@
       "autolevelup": false
     },
     "918109939106@s.whatsapp.net": {
-      "exp": 131,
+      "exp": 246,
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
@@ -2847,7 +2847,7 @@
       "autolevelup": false
     },
     "919777325671@s.whatsapp.net": {
-      "exp": 78,
+      "exp": 109,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2862,7 +2862,7 @@
       "autolevelup": false
     },
     "918847815259@s.whatsapp.net": {
-      "exp": 8,
+      "exp": 174,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2907,7 +2907,7 @@
       "autolevelup": false
     },
     "917085699483@s.whatsapp.net": {
-      "exp": 1436,
+      "exp": 1915,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2922,7 +2922,7 @@
       "autolevelup": false
     },
     "919957471054@s.whatsapp.net": {
-      "exp": 530,
+      "exp": 588,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2937,7 +2937,7 @@
       "autolevelup": false
     },
     "919996163370@s.whatsapp.net": {
-      "exp": 169,
+      "exp": 277,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -2967,9 +2967,9 @@
       "autolevelup": false
     },
     "918107768770@s.whatsapp.net": {
-      "exp": 1003,
-      "limit": 19,
-      "lastclaim": 0,
+      "exp": 2022,
+      "limit": 18,
+      "lastclaim": 1646995119862,
       "registered": false,
       "name": "Unknown RIDER ✨🔥",
       "age": -1,
@@ -2982,7 +2982,7 @@
       "autolevelup": false
     },
     "919526594800@s.whatsapp.net": {
-      "exp": 185,
+      "exp": 288,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3042,7 +3042,7 @@
       "autolevelup": false
     },
     "919330424542@s.whatsapp.net": {
-      "exp": 31,
+      "exp": 33,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3057,7 +3057,7 @@
       "autolevelup": false
     },
     "919633684195@s.whatsapp.net": {
-      "exp": 47,
+      "exp": 78,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3102,7 +3102,7 @@
       "autolevelup": false
     },
     "919131167374@s.whatsapp.net": {
-      "exp": 74,
+      "exp": 77,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3132,7 +3132,7 @@
       "autolevelup": false
     },
     "917077494815@s.whatsapp.net": {
-      "exp": 47,
+      "exp": 63,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3162,7 +3162,7 @@
       "autolevelup": false
     },
     "916289869064@s.whatsapp.net": {
-      "exp": 94,
+      "exp": 99,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3207,7 +3207,7 @@
       "autolevelup": false
     },
     "919927419392@s.whatsapp.net": {
-      "exp": 23,
+      "exp": 65,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3222,7 +3222,7 @@
       "autolevelup": false
     },
     "17058062358@s.whatsapp.net": {
-      "exp": 80,
+      "exp": 326,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3231,13 +3231,13 @@
       "regTime": -1,
       "afk": -1,
       "afkReason": "",
-      "banned": false,
+      "banned": true,
       "level": 0,
       "role": "Beginner",
       "autolevelup": false
     },
     "916351432264@s.whatsapp.net": {
-      "exp": 2,
+      "exp": 11,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3272,6 +3272,246 @@
       "lastclaim": 0,
       "registered": false,
       "name": "Re-1 Myer",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "916367636268@s.whatsapp.net": {
+      "exp": 339,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Bura Aadmi 🙂",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917083194126@s.whatsapp.net": {
+      "exp": 28,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Yash🍻",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918930305108@s.whatsapp.net": {
+      "exp": 43,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ਹਰਸ਼ ਚੌਹਾਨ 👽",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917990538781@s.whatsapp.net": {
+      "exp": 96,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+91 79905 38781",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917051598769@s.whatsapp.net": {
+      "exp": 49,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Bunny 🐇",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918982860407@s.whatsapp.net": {
+      "exp": 23,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Samjhau Kyu ??",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917439920451@s.whatsapp.net": {
+      "exp": 53,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Debalina",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919060791616@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Ayush Boy",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919749882823@s.whatsapp.net": {
+      "exp": 164,
+      "limit": 19,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Dr. Van Doom",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "12045144604@s.whatsapp.net": {
+      "exp": 188,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Konichiwa 💗",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918697398180@s.whatsapp.net": {
+      "exp": 7,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+91 86973 98180",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918447768456@s.whatsapp.net": {
+      "exp": 4,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+91 84477 68456",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918986607794@s.whatsapp.net": {
+      "exp": 37,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Poison Apple🖤",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919152082981@s.whatsapp.net": {
+      "exp": 15,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "CACAFOGO SHANE'S🔥♥️",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919680785398@s.whatsapp.net": {
+      "exp": 78,
+      "limit": 19,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "🦋°• •°🦋",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918777202884@s.whatsapp.net": {
+      "exp": 5,
+      "limit": 19,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Shubham Joshi",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -3706,13 +3946,13 @@
     "120363021094097997@g.us": {
       "isBanned": false,
       "welcome": true,
-      "detect": false,
+      "detect": true,
       "sWelcome": "",
       "sBye": "",
       "sPromote": "",
       "sDemote": "",
-      "delete": true,
-      "antiLink": false,
+      "delete": false,
+      "antiLink": true,
       "simi": false,
       "viewonce": false
     },
@@ -3806,20 +4046,46 @@
       "antiLink": false,
       "simi": false,
       "viewonce": false
+    },
+    "919770439106-1609603655@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
+    },
+    "918602236106@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
     }
   },
   "stats": {
     "menu.js": {
-      "total": 76,
-      "success": 76,
-      "last": 1646987977539,
-      "lastSuccess": 1646987977539
+      "total": 96,
+      "success": 96,
+      "last": 1646993131465,
+      "lastSuccess": 1646993131465
     },
     "creator.js": {
-      "total": 21,
-      "success": 21,
-      "last": 1646986114644,
-      "lastSuccess": 1646986114644
+      "total": 25,
+      "success": 25,
+      "last": 1646990607836,
+      "lastSuccess": 1646990607836
     },
     "rules.js": {
       "total": 9,
@@ -3840,10 +4106,10 @@
       "lastSuccess": 1646985986533
     },
     "enable.js": {
-      "total": 15,
-      "success": 11,
-      "last": 1646985938158,
-      "lastSuccess": 1646985914715
+      "total": 24,
+      "success": 16,
+      "last": 1646993308614,
+      "lastSuccess": 1646990702571
     },
     "register.js": {
       "total": 11,
@@ -3876,10 +4142,10 @@
       "lastSuccess": 1646127996765
     },
     "delete.js": {
-      "total": 9,
-      "success": 0,
-      "last": 1646936918202,
-      "lastSuccess": 0
+      "total": 17,
+      "success": 6,
+      "last": 1646989243397,
+      "lastSuccess": 1646989243397
     },
     "hug.js": {
       "total": 47,
@@ -3894,10 +4160,10 @@
       "lastSuccess": 1646985956794
     },
     "play.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1646938378677,
-      "lastSuccess": 1646938378677
+      "total": 23,
+      "success": 23,
+      "last": 1646996120248,
+      "lastSuccess": 1646996120248
     },
     "maintainer.js": {
       "total": 2,
@@ -3918,10 +4184,10 @@
       "lastSuccess": 1646128216899
     },
     "join.js": {
-      "total": 5,
-      "success": 4,
-      "last": 1646122021445,
-      "lastSuccess": 1646122021445
+      "total": 6,
+      "success": 5,
+      "last": 1646993024785,
+      "lastSuccess": 1646993024785
     },
     "buylimit.js": {
       "total": 9,
@@ -3948,16 +4214,16 @@
       "lastSuccess": 1646125433495
     },
     "tokio.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1646072498280,
-      "lastSuccess": 1646072498280
+      "total": 5,
+      "success": 5,
+      "last": 1646992871516,
+      "lastSuccess": 1646992871516
     },
     "banuser.js": {
-      "total": 7,
-      "success": 6,
-      "last": 1646986410939,
-      "lastSuccess": 1646986410939
+      "total": 9,
+      "success": 8,
+      "last": 1646990802474,
+      "lastSuccess": 1646990802474
     },
     "qrcode.js": {
       "total": 5,
@@ -3996,10 +4262,10 @@
       "lastSuccess": 1646982220230
     },
     "sticker.js": {
-      "total": 48,
-      "success": 42,
-      "last": 1646988037562,
-      "lastSuccess": 1646988037562
+      "total": 54,
+      "success": 48,
+      "last": 1646989230215,
+      "lastSuccess": 1646989230215
     },
     "leaderboard.js": {
       "total": 3,
@@ -4008,10 +4274,10 @@
       "lastSuccess": 1646108670045
     },
     "daily.js": {
-      "total": 7,
-      "success": 6,
-      "last": 1646126208601,
-      "lastSuccess": 1646126208601
+      "total": 8,
+      "success": 7,
+      "last": 1646995119863,
+      "lastSuccess": 1646995119863
     },
     "online.js": {
       "total": 6,
@@ -4050,15 +4316,15 @@
       "lastSuccess": 1646988024313
     },
     "ytv.js": {
-      "total": 3,
+      "total": 4,
       "success": 2,
-      "last": 1646936845108,
+      "last": 1646995903005,
       "lastSuccess": 1646122024540
     },
     "github-search.js": {
-      "total": 2,
+      "total": 3,
       "success": 0,
-      "last": 1646123602121,
+      "last": 1646989921711,
       "lastSuccess": 0
     },
     "math.js": {
@@ -4122,16 +4388,52 @@
       "lastSuccess": 1646982970031
     },
     "tinyurl.js": {
-      "total": 4,
-      "success": 1,
-      "last": 1646987683410,
-      "lastSuccess": 1646987372271
+      "total": 12,
+      "success": 6,
+      "last": 1646989531351,
+      "lastSuccess": 1646989181877
     },
     "setwelcome.js": {
       "total": 2,
       "success": 0,
       "last": 1646988111187,
       "lastSuccess": 0
+    },
+    "tiktok.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1646989026658,
+      "lastSuccess": 0
+    },
+    "tlyurl.js": {
+      "total": 7,
+      "success": 3,
+      "last": 1646989775776,
+      "lastSuccess": 1646989775776
+    },
+    "unbanuser.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646990986995,
+      "lastSuccess": 1646990986995
+    },
+    "setname_gc.js": {
+      "total": 4,
+      "success": 3,
+      "last": 1646991413975,
+      "lastSuccess": 1646991392499
+    },
+    "setProfileGroup.js": {
+      "total": 3,
+      "success": 2,
+      "last": 1646991408644,
+      "lastSuccess": 1646991389233
+    },
+    "oadd.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1646993154620,
+      "lastSuccess": 1646993154620
     }
   },
   "msgs": {},
