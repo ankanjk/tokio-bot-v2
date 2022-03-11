@@ -10,7 +10,9 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js --autoread",
+    "start": "node index.js --restrict",
+    "restart": "node meow.js --autoread",
+    "stop": "node index.js --restrict",
     "test": "node test.js --restrict"
   },
   "nodemonConfig": {

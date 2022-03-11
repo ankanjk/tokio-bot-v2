@@ -1,30 +1,25 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\npm\prefix\node_modules\yarn\bin\yarn.js add @adiwajshing
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js stop
 
 PATH: 
-  C:\Program Files\MongoDB\Server\5.0\bin;C:\aliyun-cli;C:\vcpkg;C:\Program Files (x86)\NSIS\;C:\tools\zstd;C:\Program Files\Mercurial\;C:\hostedtoolcache\windows\stack\2.7.3\x64;C:\cabal\bin;C:\\ghcup\bin;C:\tools\ghc-9.2.1\bin;C:\Program Files\dotnet;C:\mysql\bin;C:\Program Files\R\R-4.1.2\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\hostedtoolcache\windows\go\1.16.14\x64\bin;C:\hostedtoolcache\windows\Python\3.9.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.9.10\x64;C:\hostedtoolcache\windows\Ruby\3.0.3\x64\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\8.0.322-6\x64\bin;C:\npm\prefix;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\Chocolatey\bin;C:\Program Files\Docker;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\LLVM\bin;C:\Program Files\OpenSSL\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.4\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\SeleniumWebDrivers\ChromeDriver\;C:\SeleniumWebDrivers\EdgeDriver\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;
+  /data/data/com.termux/files/usr/bin
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  16.14.0
+  17.6.0
 
 Platform: 
-  win32 x64
+  android arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@adiwajshing: Request "https://registry.yarnpkg.com/@adiwajshing" returned a 405
-      at Request.params.callback [as _callback] (C:\npm\prefix\node_modules\yarn\lib\cli.js:67038:18)
-      at Request.self.callback (C:\npm\prefix\node_modules\yarn\lib\cli.js:140883:22)
-      at Request.emit (node:events:520:28)
-      at Request.<anonymous> (C:\npm\prefix\node_modules\yarn\lib\cli.js:141855:10)
-      at Request.emit (node:events:520:28)
-      at IncomingMessage.<anonymous> (C:\npm\prefix\node_modules\yarn\lib\cli.js:141777:12)
-      at Object.onceWrapper (node:events:639:28)
-      at IncomingMessage.emit (node:events:532:35)
-      at endReadableNT (node:internal/streams/readable:1346:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  SyntaxError: /storage/emulated/0/popat/package.json: Unexpected string in JSON at position 329
+      at JSON.parse (<anonymous>)
+      at /data/data/com.termux/files/usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:310:30)
+      at /data/data/com.termux/files/usr/share/yarn/lib/cli.js:321:13
 
 npm manifest: 
   {
@@ -39,8 +34,9 @@ npm manifest:
       "plugins": "plugins"
     },
     "scripts": {
-      "start": "node index.js",
-      "test": "node test.js"
+      "start": "node index.js --autoread",
+      "test": "node test.js --restrict"
+      "stop": "node meow.js --autoread",
     },
     "nodemonConfig": {
       "ext": "js,html,sh"
@@ -64,7 +60,7 @@ npm manifest:
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-      "@adiwajshing/baileys": "^3.5.0",
+      "@adiwajshing/baileys": "^3.5.2",
       "awesome-phonenumber": "^2.54.0",
       "brainly-scraper-v2": "^2.0.4-1",
       "cfonts": "^2.9.3",
@@ -108,7 +104,7 @@ Lockfile:
   # yarn lockfile v1
   
   
-  "@adiwajshing/baileys@^3.5.0":
+  "@adiwajshing/baileys@^3.5.2":
     version "3.5.3"
     resolved "https://registry.yarnpkg.com/@adiwajshing/baileys/-/baileys-3.5.3.tgz#b93364576deceddd7f55a51853b32004cea02ad1"
     integrity sha512-eSmcTuF+lJ8xRGDv2CDqVC/wJAx5vsZXs4u1f4VHiRqDmj5y20JRkGXUnZpaRdO/r72yeLqrkln/w3x6d4JZuw==

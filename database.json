@@ -2832,7 +2832,7 @@
       "autolevelup": false
     },
     "918109939106@s.whatsapp.net": {
-      "exp": 120,
+      "exp": 131,
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
@@ -2907,7 +2907,7 @@
       "autolevelup": false
     },
     "917085699483@s.whatsapp.net": {
-      "exp": 1393,
+      "exp": 1436,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3257,6 +3257,21 @@
       "lastclaim": 0,
       "registered": false,
       "name": "+91 98472 85437",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "13658092250@s.whatsapp.net": {
+      "exp": 25,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Re-1 Myer",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -3778,14 +3793,27 @@
       "antiLink": false,
       "simi": false,
       "viewonce": false
+    },
+    "917085699483@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "simi": false,
+      "viewonce": false
     }
   },
   "stats": {
     "menu.js": {
-      "total": 75,
-      "success": 75,
-      "last": 1646986101579,
-      "lastSuccess": 1646986101579
+      "total": 76,
+      "success": 76,
+      "last": 1646987977539,
+      "lastSuccess": 1646987977539
     },
     "creator.js": {
       "total": 21,
@@ -3968,10 +3996,10 @@
       "lastSuccess": 1646982220230
     },
     "sticker.js": {
-      "total": 47,
-      "success": 41,
-      "last": 1646986383555,
-      "lastSuccess": 1646986383555
+      "total": 48,
+      "success": 42,
+      "last": 1646988037562,
+      "lastSuccess": 1646988037562
     },
     "leaderboard.js": {
       "total": 3,
@@ -4004,10 +4032,10 @@
       "lastSuccess": 1646118806912
     },
     "pengumuman.js": {
-      "total": 18,
-      "success": 18,
-      "last": 1646125840077,
-      "lastSuccess": 1646125840077
+      "total": 19,
+      "success": 19,
+      "last": 1646988027635,
+      "lastSuccess": 1646988027635
     },
     "gay.js": {
       "total": 2,
@@ -4016,10 +4044,10 @@
       "lastSuccess": 1646120047379
     },
     "tagall.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1646986312508,
-      "lastSuccess": 1646986312508
+      "total": 9,
+      "success": 9,
+      "last": 1646988024313,
+      "lastSuccess": 1646988024313
     },
     "ytv.js": {
       "total": 3,
@@ -4094,10 +4122,16 @@
       "lastSuccess": 1646982970031
     },
     "tinyurl.js": {
-      "total": 3,
+      "total": 4,
       "success": 1,
-      "last": 1646987372271,
+      "last": 1646987683410,
       "lastSuccess": 1646987372271
+    },
+    "setwelcome.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1646988111187,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
