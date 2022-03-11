@@ -62,7 +62,7 @@ if (opts['big-qr']) conn.on('qr', qr => generate(qr, { small: false }))
 conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your tokio bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
-    teks = `https://chat.whatsapp.com/BzM2JPckZwW9mCDZ9NFFwK`
+    teks = `https://chat.whatsapp.com/IHP6JLwAIi4HeVJMDJPw1N`
     conn.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
 if (!opts['test']) setInterval(async () => {
   await global.db.write()
