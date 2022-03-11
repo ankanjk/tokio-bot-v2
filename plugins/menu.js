@@ -2,13 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
-const thumb = fs.readFileSync('./src/thumb.jpg')
-const GROUP2 = JSON.parse(fs.readFileSync('./.settings/.GROUP.json'))
-const bot = JSON.parse(fs.readFileSync('./.settings/Bot.json'))
-const BOT = JSON.parse(fs.readFileSync('./.settings/.BOT.json'))
-const setting = JSON.parse(fs.readFileSync('./.settings/.settings.json'))
-
-GROUPLINK = GROUP2.GROUPLINK
+let thumb = fs.readFileSync('./src/thumb.jpg')
 
 let tags = {
   'main': 'MAIN',
@@ -38,7 +32,7 @@ let tags = {
   'host': 'HOST',
   'advanced': 'ADVANCED',
 }
-const defaultMenu = {
+let defaultMenu = {
   before: `
 
 🙏🏻 Namaste %name, how can i help you?
@@ -51,7 +45,7 @@ const defaultMenu = {
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
 💠 Github: https://github.com/jetushack4/tokio-bot-v2
- *GROUP_OLDUSER* : ${GROUPLINK}
+
 
 👇🏻 All usable commands are listed below 
 
@@ -181,8 +175,8 @@ handler.exp = 3
 
 module.exports = handler
 
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
+let more = String.fromCharCode(8206)
+let readMore = more.repeat(4001)
 
 function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)

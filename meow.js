@@ -18,7 +18,6 @@ const cp = require('child_process')
 const _ = require('lodash')
 const path = require('path')
 const fs = require('fs')
-const fetch = require("node-fetch");
 var low
 try {
   low = require('lowdb')
@@ -66,6 +65,7 @@ conn.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.co
         //inform to developer that the user is connected to bot
         
 conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your tokio bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+
 if (!opts['test']) setInterval(async () => {
   await global.db.write()
 }, 60 * 1000) // Save every minute
