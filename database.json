@@ -2802,7 +2802,7 @@
       "autolevelup": false
     },
     "919116787710@s.whatsapp.net": {
-      "exp": 656,
+      "exp": 671,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3520,6 +3520,51 @@
       "level": 0,
       "role": "Beginner",
       "autolevelup": false
+    },
+    "919073846627@s.whatsapp.net": {
+      "exp": 4,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Itz Panda 💜🐼",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "917007931361@s.whatsapp.net": {
+      "exp": 39,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Ikram (Tom) We Are Anonymous Sir",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918301947110@s.whatsapp.net": {
+      "exp": 62,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Vinay Pillai",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
     }
   },
   "chats": {
@@ -4076,10 +4121,10 @@
   },
   "stats": {
     "menu.js": {
-      "total": 96,
-      "success": 96,
-      "last": 1646993131465,
-      "lastSuccess": 1646993131465
+      "total": 97,
+      "success": 97,
+      "last": 1647003656883,
+      "lastSuccess": 1647003656883
     },
     "creator.js": {
       "total": 25,
@@ -4112,9 +4157,9 @@
       "lastSuccess": 1646990702571
     },
     "register.js": {
-      "total": 11,
+      "total": 12,
       "success": 4,
-      "last": 1646126548898,
+      "last": 1647003682536,
       "lastSuccess": 1646126548898
     },
     "unregister.js": {

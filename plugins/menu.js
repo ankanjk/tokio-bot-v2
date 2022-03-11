@@ -3,6 +3,13 @@ let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
 const thumb = fs.readFileSync('./src/thumb.jpg')
+const GROUP2 = JSON.parse(fs.readFileSync('./.settings/.GROUP.json'))
+const bot = JSON.parse(fs.readFileSync('./.settings/Bot.json'))
+const BOT = JSON.parse(fs.readFileSync('./.settings/.BOT.json'))
+const setting = JSON.parse(fs.readFileSync('./.settings/.settings.json'))
+
+GROUPLINK = GROUP2.GROUPLINK
+
 let tags = {
   'main': 'MAIN',
   'info': 'INFO',
@@ -44,6 +51,7 @@ const defaultMenu = {
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
 💠 Github: https://github.com/jetushack4/tokio-bot-v2
+ *GROUP_OLDUSER* : ${GROUPLINK}
 
 👇🏻 All usable commands are listed below 
 
