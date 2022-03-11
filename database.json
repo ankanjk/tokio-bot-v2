@@ -2832,7 +2832,7 @@
       "autolevelup": false
     },
     "918109939106@s.whatsapp.net": {
-      "exp": 108,
+      "exp": 120,
       "limit": 10,
       "lastclaim": 0,
       "registered": false,
@@ -2922,7 +2922,7 @@
       "autolevelup": false
     },
     "919957471054@s.whatsapp.net": {
-      "exp": 507,
+      "exp": 530,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3042,7 +3042,7 @@
       "autolevelup": false
     },
     "919330424542@s.whatsapp.net": {
-      "exp": 25,
+      "exp": 31,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3102,7 +3102,7 @@
       "autolevelup": false
     },
     "919131167374@s.whatsapp.net": {
-      "exp": 73,
+      "exp": 74,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3132,7 +3132,7 @@
       "autolevelup": false
     },
     "917077494815@s.whatsapp.net": {
-      "exp": 27,
+      "exp": 47,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3147,7 +3147,7 @@
       "autolevelup": false
     },
     "917574010604@s.whatsapp.net": {
-      "exp": 355,
+      "exp": 389,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3162,7 +3162,7 @@
       "autolevelup": false
     },
     "916289869064@s.whatsapp.net": {
-      "exp": 85,
+      "exp": 94,
       "limit": 20,
       "lastclaim": 0,
       "registered": false,
@@ -3242,6 +3242,21 @@
       "lastclaim": 0,
       "registered": false,
       "name": "Meghraj",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "919847285437@s.whatsapp.net": {
+      "exp": 10,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+91 98472 85437",
       "age": -1,
       "regTime": -1,
       "afk": -1,
@@ -4077,6 +4092,12 @@
       "success": 2,
       "last": 1646982970031,
       "lastSuccess": 1646982970031
+    },
+    "tinyurl.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1646987372271,
+      "lastSuccess": 1646987372271
     }
   },
   "msgs": {},
