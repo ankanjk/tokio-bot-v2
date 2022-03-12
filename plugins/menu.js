@@ -2,8 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
-let thumb = fs.readFileSync('./src/thumb.jpg')
-
+const thumb = fs.readFileSync('./src/thumb.jpg')
 let tags = {
   'main': 'MAIN',
   'info': 'INFO',
@@ -32,7 +31,7 @@ let tags = {
   'host': 'HOST',
   'advanced': 'ADVANCED',
 }
-let defaultMenu = {
+const defaultMenu = {
   before: `
 
 🙏🏻 Namaste %name, how can i help you?
@@ -44,8 +43,7 @@ let defaultMenu = {
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Github: https://github.com/jetushack4/tokio-bot-v2
-
+💠 Github: github.com/itsajaygaur/tokio-wabot
 
 👇🏻 All usable commands are listed below 
 
@@ -152,7 +150,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.send2ButtonImg(m.chat, thumb, `🏮 I\'M TOKIO BOT`, text.trim(), 'owner', '.owner', 'rules', '.rules', m)
+    conn.send2ButtonImg(m.chat, thumb, `🏮 I\'m ${conn.user.name}`, text.trim(), 'owner', `${_p}owner`, 'rules', `${_p}rules`, m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
@@ -175,8 +173,8 @@ handler.exp = 3
 
 module.exports = handler
 
-let more = String.fromCharCode(8206)
-let readMore = more.repeat(4001)
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
 
 function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
