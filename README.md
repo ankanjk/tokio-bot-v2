@@ -4,27 +4,20 @@ English version of wabot-aq
 
 Don't forget to give it a star  🌟
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jetushack1/popat)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsajaygaur/tokio-wabot)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
 ```bash
-pkg update
-pkg upgrade
-pkg install git -y nodejs -y yarn -y ffmpeg -y imagemagick -y python -y python2 -y python -y wget -y bash -y
 apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
-apt install wget -y
-apt install bash -y
-apt install yarn -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/jetushack1/popat
-cd popat
-rm -rf session.json
-rm -rf session.data.json
-yarn start
+git clone https://github.com/itsajaygaur/tokio-wabot
+cd tokio-wabot
+npm install
+npm update
 ```
 
 ## INSTALL ON TERMUX WITH UBUNTU
@@ -45,21 +38,21 @@ ubuntu
 ```bash
 ubuntu
 apt update && apt full-upgrade
-apt install wget curl git ffmpeg yarn imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
+apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
 ```
 
 ---------
 
-[ INSTALLING NODEJS & popat ]
+[ INSTALLING NODEJS & TOKIO-WABOT ]
 
 ```bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-https://github.com/jetushack1/popat
-cd popat
-yarn install
-yarn upgrade
+git clone https://github.com/itsajaygaur/tokio-wabot
+cd tokio-wabot
+npm install
+npm update
 ```
 
 ---------
@@ -72,13 +65,10 @@ yarn upgrade
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-https://github.com/jetushack1/popat
-cd popat
-npm install --global yarn
-npm install -g yarn
-choco install yarn
-yarn install
-yarn upgrade
+git clone https://github.com/itsajaygaur/tokio-wabot
+cd tokio-wabot
+npm install
+npm update
 ```
 
 ---------
@@ -168,9 +158,9 @@ conn.logger.level = 'debug'
 
 -------
 
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay](https://github.com/itsajaygaur.png?size=100)](https://github.com/itsajaygaur/popat) 
+[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay](https://github.com/itsajaygaur.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) 
 ----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ajay](https://github.com/itsajaygaur/popat) 
+[Nurutomo](https://github.com/Nurutomo) | [Ajay](https://github.com/itsajaygaur/tokio-wabot) 
 Author / Creator | Editor
  
 
