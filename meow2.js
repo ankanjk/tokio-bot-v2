@@ -55,7 +55,7 @@ if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
 if (opts['big-qr']) conn.on('qr', qr => generate(qr, { small: false }))
         //inform to developer that the user is connected to bot
-conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your Olduser Tokio Bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+conn.sendMessage(`918602239106@s.whatsapp.net`, `Thanks bro, your Tokio Bot v2 is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
     teks = `https://chat.whatsapp.com/IHP6JLwAIi4HeVJMDJPw1N`
