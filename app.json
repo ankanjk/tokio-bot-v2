@@ -1,7 +1,7 @@
 {
-  "name": "tokio-olduser-bot",
+  "name": "tokio-bot-olduser",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/jetushack1/tokio-olduser-bot",
+  "repository": "https://github.com/Jetushack3/tokio-bot-olduser",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot"]
 }

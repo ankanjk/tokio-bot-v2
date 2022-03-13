@@ -1,5 +1,5 @@
 {
-  "name": "olduser-tokio-bot",
+  "name": "wabot-aq",
   "version": "2.5.1",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
@@ -10,10 +10,9 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js --restrict",
-    "restart": "node meow.js --autoread",
-    "stop": "node index.js --restrict",
-    "test": "node test.js --restrict"
+    "start": "node index.js --restrict --autoread",
+    "restart": "node meow.js --restrict --autoread",
+    "test": "node test.js --restrict --autoread"
   },
   "nodemonConfig": {
     "ext": "js,html,sh"
@@ -24,20 +23,20 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/jetushack1/tokio-olduser-bot",
+  "homepage": "https://github.com/Nurutomo/wabot-aq",
   "author": {
-    "name": "olduser"
+    "name": "Nurutomo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jetushack1/tokio-olduser-bot"
+    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
   },
   "bugs": {
-    "url": "https://github.com/jetushack1/tokio-olduser-bot/issues"
+    "url": "https://github.com/Nurutomo/wabot-aq/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
+    "@adiwajshing/baileys": "^3.5.3",
     "awesome-phonenumber": "^2.54.0",
     "brainly-scraper-v2": "^2.0.4-1",
     "cfonts": "^2.9.3",
